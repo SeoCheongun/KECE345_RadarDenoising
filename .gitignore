@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local editor / OS files
+.claude/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Environment variables / local secrets
+.env
+.env.*
+
+# Raw and extracted datasets
+raw_data/
+extracted_data/
+prepared_data/
+python_dataset/
+*.rar
+*.zip
+*.7z
+*.mat
+
+# Generated dataset indexes / converted arrays
+file_index.csv
+dataset_for_training.mat
+*.npy
+*.npz
+
+# Experiment outputs, checkpoints, and caches
+runs/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Generated visualizations
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+
+# Logs
+*.log
+wandb/
+tensorboard/
