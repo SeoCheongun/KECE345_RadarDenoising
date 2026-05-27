@@ -25,6 +25,9 @@ Thumbs.db
 # Raw and extracted datasets
 raw_data/
 extracted_data/
+extracted_data_awgn/
+denoised_data_diffusion/
+denoised_data_dps_full102/
 prepared_data/
 python_dataset/
 *.rar
